@@ -12,6 +12,7 @@ class OpaqueEncoder {
 
 	private $key;
 	private $extraChars = '.-';
+	private $encoding;
 	
 	 const ENCODING_INT = 0;
 	 const ENCODING_HEX = 1;
